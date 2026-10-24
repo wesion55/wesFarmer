@@ -1,0 +1,27 @@
+# =========================================================
+#  WesFarmer - guis/confirm.yml
+#  MiniMessage formatı kullanır. & kodu KULLANILMAZ.
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → ᴏɴᴀʏ'
+size: 27
+
+filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ''
+
+confirm-item:
+  slot: 11
+  material: LIME_STAINED_GLASS_PANE
+  display-name: '<green>✔ <bold>ᴏɴᴀʏʟᴀ</bold></green>'
+  lore:
+    - ''
+    - '<green>●</green> <white><u><bold><green>ᴏɴᴀʏʟᴀᴍᴀᴋ</green></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+cancel-item:
+  slot: 15
+  material: RED_STAINED_GLASS_PANE
+  display-name: '<red>❌ <bold>ɪᴘᴛᴀʟ</bold></red>'
+  lore:
+    - ''
+    - '<red>●</red> <white><u><bold><red>ɪᴘᴛᴀʟ ᴇᴛᴍᴇᴋ</red></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

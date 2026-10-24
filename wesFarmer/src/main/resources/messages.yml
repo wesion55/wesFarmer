@@ -1,0 +1,137 @@
+prefix: '<gradient:#D09019:#E6C400><bold>çɪꜰᴛçɪ</bold></gradient> <gray>»</gray> '
+
+messages:
+  usage: '&8/çiftçi &7<buy|list|menu|remove|move|admin>'
+  player-only: '&cBu komutu yalnızca oyuncular kullanabilir.'
+  no-permission: '&cBu işlemi yapmaya yetkin yok.'
+  economy-not-found: '&cEkonomi eklentisi bulunamadı, satın alma devre dışı.'
+  npc-plugin-not-found: '&cNPC eklentisi bulunamadı, satın alma devre dışı.'
+  not-enough-money: '&cYeterli paran yok! Gereken miktar: &e%price%'
+  claim-not-allowed: '&cÇiftçi yalnızca kendi claiminin içine yerleştirilebilir.'
+  world-not-allowed: '&cBu dünyada çiftçi yerleştirilemiyor.'
+  claim-already-has-farmer: '&cBu claimde zaten bir çiftçi var. Her claim için yalnızca 1 çiftçi alınabilir.'
+  max-farmers-reached: '&cMaksimum çiftçi limitine ulaştın! &7(Limit: &e%limit%&7)'
+  purchase-failed: '&cSatın alma başarısız oldu. &7(%reason%)'
+  purchase-success: '&aÇiftçi başarıyla satın alındı! &7(&e%price%&7)'
+  purchase-cancelled: '&eSatın alma iptal edildi.'
+  refund-failed: '&cİade başarısız! Lütfen yetkiliyle iletişime geç. &7(%price%)'
+  reload-success: '&aKonfigürasyon ve hologramlar yeniden yüklendi.'
+
+  # --- NPC tıklama ---
+  npc-click-not-owner: '&cBu çiftçi sana ait değil.'
+  menu-coming-soon: '&eBu özellik yakında eklenecek!'
+
+  # --- Toplama ---
+  collect-enabled: '&aÇiftçi bu ürünü toplamaya başladı.'
+  collect-disabled: '&cÇiftçi bu ürünü artık toplamayacak.'
+  collect-all-enabled: '&aTüm ürünlerin toplanması açıldı.'
+  collect-all-disabled: '&cTüm ürünlerin toplanması kapatıldı.'
+
+  # --- Seviye yükseltme ---
+  upgrade-success: '&aSeviye &e%level%&a''ye yükseltildi! &7Maliyet: &c-%cost%$'
+  upgrade-max-level: '&cBu ürün zaten maksimum seviyede!'
+  upgrade-not-enough-money: '&cYeterli paran yok! Gereken: &e%cost%$'
+
+  # --- Toplu yükseltme ---
+  upgrade-all-confirm-hint: '&e%count% &7ürün yükseltilecek. &7Toplam maliyet: &c%cost%$&7. Onaylamak için açılan menüyü kullan.'
+  upgrade-all-success: '&a%count% &7ürün yükseltildi! &7Toplam harcanan: &c%cost%$'
+  upgrade-all-partial: '&a%upgraded% &7ürün yükseltildi, &c%skipped% &7ürün atlandı &7(yetersiz para). &7Harcanan: &c%cost%$'
+  upgrade-all-no-money: '&cHiçbir ürün için yeterli paran yok.'
+  upgrade-all-all-maxed: '&eTüm ürünler zaten maksimum seviyede!'
+
+  # --- /çiftçi list ---
+  list-empty: '&cHiç çiftçin yok.'
+  list-header: '&7Çiftçilerin &8(&a%count%&8)&7:'
+  list-entry: '  &8» &e%npc% &8| &7%world% &8(%x%, %y%, %z%)'
+
+  # --- /çiftçi remove ---
+  remove-not-in-claim: '&cBir çiftçi silmek için kendi claiminin içinde durmalısın.'
+  remove-no-farmer-in-claim: '&cBu claimde sana ait bir çiftçi bulunamadı.'
+  remove-success: '&aÇiftçin başarıyla silindi.'
+  remove-cancelled: '&eSilme işlemi iptal edildi.'
+  remove-already-gone: '&cBu çiftçi artık mevcut değil.'
+
+  # --- /çiftçi move ---
+  move-not-in-claim: '&cTaşıma yapmak için kendi claiminin içinde durmalısın.'
+  move-no-farmer-in-claim: '&cBu claimde sana ait bir çiftçi bulunamadı.'
+  move-success: '&aÇiftçin başarıyla taşındı!'
+  move-failed: '&cTaşıma başarısız oldu. &7(%reason%)'
+
+  # --- /çiftçi menu ---
+  menu-not-in-claim: '&cMenüyü açmak için çiftçinin bulunduğu claimde durmalısın.'
+
+  # --- Satış mesajları ---
+  sell-all-success: '&aTüm ürünler satıldı! &7Kazanç: &a+%earnings%$'
+  sell-success: '&a%amount%x %item% &7satıldı! &7Kazanç: &a+%earnings%$'
+  sell-nothing-to-sell: '&cSatılacak ürün yok.'
+  sell-no-stock: '&cBu üründen stokta hiç yok.'
+
+  # --- Envantere al ---
+  take-prompt: '&7Kaç adet almak istiyorsun? &8(Max: &e%max%&8) &7İptal için: &eiptal'
+  take-cancelled: '&eİşlem iptal edildi.'
+  take-invalid-number: '&cGeçerli bir sayı gir.'
+  take-inventory-full: '&cEnvantern dolu, hiçbir şey alamazsın.'
+  take-inventory-limit: '&cBu kadar alamazsın! &7Alabileceğin: &e%max%'
+  take-success: '&a%amount%x %item% &7envantere alındı.'
+
+  # --- Admin komutları ---
+  admin-usage: '&8/çiftçi admin &7<list|remove|removeall|info|reload>'
+  admin-list-empty: '&e%player% &cadlı oyuncunun hiç çiftçisi yok.'
+  admin-list-header: '&7%player% &8| &a%count% &7çiftçi:'
+  admin-list-entry: '  &8» &e%npc% &8| &7%world% &8(%x%, %y%, %z%)'
+  admin-remove-success: '&a%npc% &7(sahip: &e%player%&7) başarıyla silindi.'
+  admin-removeall-success: '&e%player% &7adlı oyuncunun &a%count% &7çiftçisi silindi.'
+  admin-removeall-cancelled: '&eSilme işlemi iptal edildi.'
+  admin-removeall-confirm-hint: '&e%player% &7adlı oyuncunun &c%count% &7çiftçisi silinecek. Onaylamak için açılan menüyü kullan.'
+  admin-farmer-not-found: '&c"%npc%" adında bir çiftçi bulunamadı.'
+  admin-player-not-found: '&c"%player%" adlı oyuncu bulunamadı veya sunucuya hiç girmemiş.'
+  admin-remove-owner-mismatch: '&c"%npc%" &e%actual% &cadlı oyuncuya ait, &e%given% &cadlı oyuncuya değil.'
+  admin-info-owner: '&7Sahip&8: &e%player%'
+  admin-info-npc: '&7NPC Adı&8: &f%npc%'
+  admin-info-holo: '&7Hologram&8: &f%holo%'
+  admin-info-location: '&7Konum&8: &f%world% &8(%x%, %y%, %z%)'
+  admin-info-claim: '&7Claim&8: &f%claim%'
+
+  # --- Admin setlevel ---
+  admin-setlevel-usage: '&8/çiftçi admin setlevel &7<oyuncu> <materyal|all> <seviye>'
+  admin-setlevel-success: '&e%player% &7adlı oyuncunun &a%material% &7ürününün seviyesi &e%level%&7 olarak ayarlandı.'
+  admin-setlevel-all-success: '&e%player% &7adlı oyuncunun tüm ürünlerinin seviyesi &e%level%&7 olarak ayarlandı.'
+  admin-setlevel-invalid: '&cGeçersiz seviye! 1 ile &e%max% &carasında olmalı.'
+  admin-setlevel-invalid-material: '&c"%material%" geçerli bir materyal değil.'
+
+  # --- Üye sistemi ---
+  member-add-prompt: '&7Üye eklemek istediğin oyuncunun adını yaz. &8İptal için: &eiptal'
+  member-add-cancelled: '&eÜye ekleme iptal edildi.'
+  member-added: '&a%player% &7çiftçiye üye olarak eklendi.'
+  member-removed: '&e%player% &7çiftçiden çıkarıldı.'
+  member-role-changed: '&e%player% &7adlı üyenin rolü &a%role%&7 olarak güncellendi.'
+  member-already-member: '&e%player% &7zaten bu çiftçinin üyesi.'
+  member-limit-reached: '&cMaximum üye limitine ulaşıldı.'
+  member-cannot-modify-owner: '&cSahibin rolünü değiştiremez veya kaldıramazsın.'
+
+  # --- İzinler ---
+  permission-updated: '&aİzin güncellendi: &e%permission% &7→ &a%role%&7 ve üzeri'
+
+  # --- Ayarlar paneli ---
+  settings-npc-shown: '&aNPC tüm oyunculara gösterildi.'
+  settings-npc-hidden: '&cNPC tüm oyunculardan gizlendi.'
+  settings-holo-shown: '&aHologram tüm oyunculara gösterildi.'
+  settings-holo-hidden: '&cHologram tüm oyunculardan gizlendi.'
+  settings-sell-locked: '&cSatışlar kilitlendi. Artık satış yapılamaz.'
+  settings-sell-unlocked: '&aSatışlar açıldı.'
+  settings-collect-locked: '&cToplama kilitlendi. Yere düşen eşyalar toplanmayacak.'
+  settings-collect-unlocked: '&aToplama açıldı.'
+  sell-locked: '&cBu çiftçinin satışları şu an kilitli.'
+  settings-collect-locked-action: '&cToplama şu an kilitli. Ayarlar panelinden açabilirsin.'
+  sell-product-disabled: '&cBu ürünün satışı kapalı.'
+  farmer-removed-claim-lost: '&cClaim''in değiştiği için çiftçin otomatik olarak silindi.'
+  action-cancelled: '&eİşlem iptal edildi.'
+  upgrade-all-cancelled: '&eToplu yükseltme iptal edildi.'
+  sell-product-enabled: '&aBu ürünün satışı açıldı.'
+  sell-product-disabled: '&cBu ürünün satışı kapatıldı.'
+
+  # --- Stok bildirimleri ---
+  stock-full: '&e⚑ &f%item% &eürününün stoğu doldu! &7Satmak için çiftçi menüsünü aç.'
+
+  # --- Admin log ---
+  admin-log-usage: '&8/çiftçi admin log &7<npc_adı>'

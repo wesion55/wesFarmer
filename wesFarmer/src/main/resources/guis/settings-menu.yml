@@ -1,0 +1,16 @@
+# =========================================================
+#  WesFarmer - guis/settings-menu.yml
+#  Slot düzeni (36 slot / 9x4):
+#  Satır 2: toplama=10 | holo=12 | satış=14
+#  Satır 4: filler x4  | geri=31 | filler x4
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → ᴀʏᴀʀʟᴀʀ'
+
+back:
+  slot: 31
+  material: ARROW
+  display-name: '<#ffea00>← <bold>ɢᴇʀɪ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɢᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

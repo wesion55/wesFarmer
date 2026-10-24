@@ -1,0 +1,55 @@
+# =========================================================
+#  WesFarmer - guis/control-panel-menu.yml
+#  Slot düzeni (36 slot / 9x4):
+#  Satır 2: izinler=12 | ayarlar=13 | üyeler=14
+#  Satır 4: filler x4  | geri=31    | filler x4
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → ᴋᴏɴᴛʀᴏʟ'
+
+filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ''
+
+back:
+  slot: 31
+  material: ARROW
+  display-name: '<#ffea00>← <bold>ɢᴇʀɪ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɢᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+permissions-title:
+  slot: 12
+  material: WRITABLE_BOOK
+  display-name: '<#a78bfa>♦ <bold>ɪᴢɪɴʟᴇʀ</bold></#a78bfa>'
+  lore:
+    - ''
+    - '<#a78bfa>Bilgiler:</#a78bfa>'
+    - ' <white>Üye rolü izinlerini yönet.</white>'
+    - ''
+    - '<#a78bfa>●</#a78bfa> <white><u><bold><#a78bfa>ᴀçᴍᴀᴋ</#a78bfa></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+settings-title:
+  slot: 13
+  material: COMPARATOR
+  display-name: '<#f97316>♦ <bold>ᴀʏᴀʀʟᴀʀ</bold></#f97316>'
+  lore:
+    - ''
+    - '<#f97316>Bilgiler:</#f97316>'
+    - ' <white>Hologram, satış ve</white>'
+    - ' <white>toplama durumunu ayarla.</white>'
+    - ''
+    - '<#f97316>●</#f97316> <white><u><bold><#f97316>ᴀçᴍᴀᴋ</#f97316></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+members-title:
+  slot: 14
+  material: PLAYER_HEAD
+  display-name: '<#38bdf8>♦ <bold>üʏᴇʟᴇʀ</bold></#38bdf8>'
+  lore:
+    - ''
+    - '<#38bdf8>Bilgiler:</#38bdf8>'
+    - ' <white>Çiftçiye üye ekle,</white>'
+    - ' <white>rol ve izinleri yönet.</white>'
+    - ''
+    - '<#38bdf8>●</#38bdf8> <white><u><bold><#38bdf8>ᴀçᴍᴀᴋ</#38bdf8></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

@@ -1,0 +1,104 @@
+# =========================================================
+#  Çiftçinin toplayabileceği ürünler ve fiyatları.
+#
+#  tax: Satış vergisi yüzdesi (0 = vergisiz).
+#  max-stock: Çiftçinin tutabileceği maksimum stok (0 = sınırsız).
+#  sell: true ise çiftçi bu ürünü satabilir.
+#  collect: true ise çiftçi bu ürünü yerden toplar.
+# =========================================================
+
+settings:
+  # Global vergi oranı (%) — ürün bazında üzerine yazılabilir
+  default-tax: 10
+
+products:
+
+  WHEAT:
+    display-name: '<#D09019>Buğday</#D09019>'
+    material: WHEAT
+    price: 0.12
+    tax: 10
+    max-stock: 2500
+    sell: true
+    collect: true
+
+  CARROT:
+    display-name: '<#D09019>Havuç</#D09019>'
+    material: CARROT
+    price: 0.15
+    tax: 10
+    max-stock: 2500
+    sell: true
+    collect: true
+
+  POTATO:
+    display-name: '<#D09019>Patates</#D09019>'
+    material: POTATO
+    price: 0.10
+    tax: 10
+    max-stock: 2500
+    sell: true
+    collect: true
+
+  SUGAR_CANE:
+    display-name: '<#D09019>Şeker Kamışı</#D09019>'
+    material: SUGAR_CANE
+    price: 0.08
+    tax: 10
+    max-stock: 2500
+    sell: true
+    collect: true
+
+  CACTUS:
+    display-name: '<#D09019>Kaktüs</#D09019>'
+    material: CACTUS
+    price: 0.09
+    tax: 10
+    max-stock: 2500
+    sell: true
+    collect: true
+
+  PUMPKIN:
+    display-name: '<#D09019>Balkabağı</#D09019>'
+    material: PUMPKIN
+    price: 0.20
+    tax: 10
+    max-stock: 1500
+    sell: true
+    collect: true
+
+  MELON_SLICE:
+    display-name: '<#D09019>Karpuz Dilimi</#D09019>'
+    material: MELON_SLICE
+    price: 0.07
+    tax: 10
+    max-stock: 3000
+    sell: true
+    collect: true
+
+  BAMBOO:
+    display-name: '<#D09019>Bambu</#D09019>'
+    material: BAMBOO
+    price: 0.06
+    tax: 10
+    max-stock: 3000
+    sell: true
+    collect: true
+
+  COCOA_BEANS:
+    display-name: '<#D09019>Kakao Çekirdeği</#D09019>'
+    material: COCOA_BEANS
+    price: 0.18
+    tax: 10
+    max-stock: 2000
+    sell: true
+    collect: true
+
+  NETHER_WART:
+    display-name: '<#D09019>Nether Wart</#D09019>'
+    material: NETHER_WART
+    price: 0.25
+    tax: 15
+    max-stock: 1500
+    sell: true
+    collect: true

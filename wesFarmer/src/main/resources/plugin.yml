@@ -1,0 +1,76 @@
+name: wesFarmer
+version: '${project.version}'
+main: xyz.geik.wesfarmer.WesFarmer
+api-version: '1.20'
+author: Wesion
+description: WesFarmer - Farmer eklentisi.
+folia-supported: false
+
+softdepend: [Vault, FancyNpcs, FancyHolograms, GriefPrevention, WorldGuard, SuperiorSkyblock2, PlaceholderAPI]
+
+commands:
+  wesfarmer:
+    description: WesFarmer ana komutu.
+    usage: /<command> <buy|list|menu|remove|move|admin>
+    aliases: [wfarmer, wsf, çiftçi, ciftci, farmer]
+
+permissions:
+  wesfarmer.buy:
+    description: Çiftçi satın almaya izin verir.
+    default: true
+
+  wesfarmer.list:
+    description: Kendi çiftçilerini listelemeye izin verir.
+    default: true
+
+  wesfarmer.remove:
+    description: Kendi çiftçisini silmeye izin verir.
+    default: true
+
+  wesfarmer.move:
+    description: Kendi çiftçisini taşımaya izin verir.
+    default: true
+
+  wesfarmer.menu:
+    description: Çiftçi ana menüsünü açmaya izin verir.
+    default: true
+
+  wesfarmer.admin:
+    description: Tum admin alt komutlarina erisim saglar.
+    default: op
+    children:
+      wesfarmer.admin.list: true
+      wesfarmer.admin.remove: true
+      wesfarmer.admin.removeall: true
+      wesfarmer.admin.info: true
+      wesfarmer.admin.reload: true
+      wesfarmer.admin.setlevel: true
+      wesfarmer.admin.log: true
+
+  wesfarmer.admin.list:
+    description: Oyuncu farmer listesini goruntuleme.
+    default: op
+
+  wesfarmer.admin.remove:
+    description: Belirli bir farmeri silme.
+    default: op
+
+  wesfarmer.admin.removeall:
+    description: Oyuncunun tum farmerlarini silme.
+    default: op
+
+  wesfarmer.admin.info:
+    description: NPC detaylarini goruntuleme.
+    default: op
+
+  wesfarmer.admin.reload:
+    description: Konfigurasyon ve hologramlari yeniden yukleme.
+    default: op
+
+  wesfarmer.admin.setlevel:
+    description: Oyuncunun urun seviyesini ayarlama.
+    default: op
+
+  wesfarmer.admin.log:
+    description: Farmer işlem loglarını görüntüleme.
+    default: op

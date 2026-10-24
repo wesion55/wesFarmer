@@ -1,0 +1,29 @@
+# =========================================================
+#  WesFarmer - guis/remove-confirm.yml
+#  MiniMessage formatı kullanır. & kodu KULLANILMAZ.
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → ѕɪʟ'
+size: 27
+
+filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ''
+
+confirm-item:
+  slot: 11
+  material: RED_STAINED_GLASS_PANE
+  display-name: '<red>❌ <bold>ѕɪʟ</bold></red>'
+  lore:
+    - ''
+    - '<red>⚑</red> <white>Bu çiftçi kalıcı olarak silinecek!</white>'
+    - ''
+    - '<red>●</red> <white><u><bold><red>ѕɪʟᴍᴇᴋ</red></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+cancel-item:
+  slot: 15
+  material: LIME_STAINED_GLASS_PANE
+  display-name: '<green>✔ <bold>ɪᴘᴛᴀʟ</bold></green>'
+  lore:
+    - ''
+    - '<green>●</green> <white><u><bold><green>ɪᴘᴛᴀʟ ᴇᴛᴍᴇᴋ</green></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

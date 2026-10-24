@@ -1,0 +1,25 @@
+# =========================================================
+#  WesFarmer - guis/buy.yml
+#  MiniMessage formatı kullanır. & kodu KULLANILMAZ.
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → ѕᴀᴛıɴ ᴀʟ'
+size: 27
+
+filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ''
+
+buy-item:
+  slot: 13
+  material: HAY_BLOCK
+  display-name: '<#D09019>♦ <bold>çɪꜰᴛçɪ ѕᴀᴛıɴ ᴀʟ</bold></#D09019>'
+  lore:
+    - ''
+    - '<#D09019>Bilgiler:</#D09019>'
+    - ' <white>Bulunduğun noktaya bir çiftçi</white>'
+    - ' <white>NPC''si yerleştirir.</white>'
+    - ''
+    - '<#D09019>✦</#D09019> <white>Fiyat:</white> <#D09019>%price%</#D09019>'
+    - ''
+    - '<#D09019>●</#D09019> <white><u><bold><#D09019>ѕᴀᴛıɴ ᴀʟᴍᴀᴋ</#D09019></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

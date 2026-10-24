@@ -1,0 +1,35 @@
+# =========================================================
+#  WesFarmer - guis/history-menu.yml
+#  MiniMessage formatı kullanır.
+#  Slot 0-44: işlem kayıtları
+#  45=önceki  46-48=filler  49=geri(orta)  50-52=filler  53=sonraki
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → ɢᴇçᴍɪş'
+
+filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ''
+
+back:
+  slot: 49
+  material: ARROW
+  display-name: '<#ffea00>← <bold>ɢᴇʀɪ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɢᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+previous-page:
+  slot: 45
+  material: ARROW
+  display-name: '<#ffea00>← <bold>öɴᴄᴇᴋɪ ѕᴀʏғᴀ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɢᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+next-page:
+  slot: 53
+  material: ARROW
+  display-name: '<#ffea00>→ <bold>ѕᴏɴʀᴀᴋɪ ѕᴀʏғᴀ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɪʟᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

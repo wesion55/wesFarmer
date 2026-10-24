@@ -1,0 +1,17 @@
+# =========================================================
+#  WesFarmer - guis/permissions-menu.yml
+#  Slot düzeni (36 slot / 9x4):
+#  Satır 2 (9-17): 9 izin ikonu yan yana (slot 9-17)
+#  Sol tık → rol yükselt | Sağ tık → rol düşür
+#  Satır 4 (27-35): filler x4 | geri=31 | filler x4
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → ɪᴢɪɴʟᴇʀ'
+
+back:
+  slot: 31
+  material: ARROW
+  display-name: '<#ffea00>← <bold>ɢᴇʀɪ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɢᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

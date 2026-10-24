@@ -1,0 +1,15 @@
+# =========================================================
+#  WesFarmer - guis/stats-menu.yml
+#  İstatistikler lore üzerinden ana menüde gösteriliyor.
+#  Bu dosya gelecekteki genişleme için ayrılmıştır.
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → ɪѕᴛᴀᴛɪѕᴛɪᴋʟᴇʀ'
+
+back:
+  slot: 31
+  material: ARROW
+  display-name: '<#ffea00>← <bold>ɢᴇʀɪ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɢᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

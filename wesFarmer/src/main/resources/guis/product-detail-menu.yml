@@ -1,0 +1,103 @@
+# =========================================================
+#  WesFarmer - guis/product-detail-menu.yml
+#  MiniMessage formatı kullanır.
+#
+#  Slot düzeni (45 slot / 9x5):
+#  Satır 1-4 (0-35): içerik — slotları kendin ayarla
+#  Satır 5  (36-44): filler x4 | geri=40 | filler x4
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → üʀüɴ'
+size: 45
+
+filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ''
+
+back:
+  slot: 40
+  material: ARROW
+  display-name: '<#ffea00>← <bold>ɢᴇʀɪ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ᴀɴᴀ ᴍᴇɴüʏᴇ ɢᴇʀɪ ᴅöɴᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+sell-toggle:
+  slot: 19
+  material-enabled: EMERALD
+  material-disabled: REDSTONE
+  display-name-enabled: '<#4ade80>♦ <bold>ѕᴀᴛɪş</bold></#4ade80>'
+  display-name-disabled: '<red>♦ <bold>ѕᴀᴛɪş</bold></red>'
+  lore:
+    - ''
+    - '<#D09019>Bilgiler:</#D09019>'
+    - ' <white>Bu ürünün satışını</white>'
+    - ' <white>aç/kapat.</white>'
+    - ''
+    - '<#D09019>⚑</#D09019> <white>Durum:</white> {status}'
+    - ''
+    - '<#D09019>●</#D09019> <white><u><bold><#D09019>ᴅᴇğɪşᴛɪʀᴍᴇᴋ</#D09019></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+collect-toggle:
+  slot: 20
+  material-enabled: HOPPER
+  material-disabled: HOPPER
+  display-name-enabled: '<#4ade80>♦ <bold>ᴛᴏᴘʟᴀᴍᴀ</bold></#4ade80>'
+  display-name-disabled: '<red>♦ <bold>ᴛᴏᴘʟᴀᴍᴀ</bold></red>'
+  lore:
+    - ''
+    - '<#D09019>Bilgiler:</#D09019>'
+    - ' <white>Çiftçinin bu ürünü</white>'
+    - ' <white>toplamasını aç/kapat.</white>'
+    - ''
+    - '<#D09019>⚑</#D09019> <white>Durum:</white> {status}'
+    - ''
+    - '<#D09019>●</#D09019> <white><u><bold><#D09019>ᴅᴇğɪşᴛɪʀᴍᴇᴋ</#D09019></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+upgrade:
+  slot: 22
+  material: ANVIL
+  display-name: '<#f97316>♦ <bold>ѕᴇᴠɪʏᴇ ʏüᴋѕᴇʟᴛ</bold></#f97316>'
+  lore:
+    - ''
+    - '<#f97316>Bilgiler:</#f97316>'
+    - ' <white>Bu ürünün depo kapasitesini</white>'
+    - ' <white>yükseltir.</white>'
+    - ''
+    - '<#f97316>⭐</#f97316> <white>Seviye:</white> <#f97316>%level% / 10</#f97316>'
+    - '<#f97316>⭐</#f97316> <white>Mevcut Kapasite:</white> <#f97316>%capacity%</#f97316>'
+    - '<#f97316>⭐</#f97316> <white>Sonraki Kapasite:</white> <#f97316>%next_capacity%</#f97316>'
+    - '<#f97316>⭐</#f97316> <white>Maliyet:</white> <#f97316>%cost%$</#f97316>'
+    - ''
+    - '<#f97316>●</#f97316> <white><u><bold><#f97316>ʏüᴋѕᴇʟᴛᴍᴇᴋ</#f97316></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+product-icon:
+  slot: 13
+
+take-to-inventory:
+  slot: 24
+  material: CHEST
+  display-name: '<#38bdf8>♦ <bold>ᴇɴᴠᴀɴᴛᴇʀᴇ ᴀʟ</bold></#38bdf8>'
+  lore:
+    - ''
+    - '<#38bdf8>Bilgiler:</#38bdf8>'
+    - ' <white>Sohbete kaç adet almak</white>'
+    - ' <white>istediğini yaz.</white>'
+    - ''
+    - '<#38bdf8>✦</#38bdf8> <white>Stok:</white> <#38bdf8>%stock%</#38bdf8>'
+    - ''
+    - '<#38bdf8>●</#38bdf8> <white><u><bold><#38bdf8>ᴀʟᴍᴀᴋ</#38bdf8></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+sell-all:
+  slot: 25
+  material: EMERALD
+  display-name: '<#4ade80>♦ <bold>ʜᴇᴘꜱɪɴɪ ꜱᴀᴛ</bold></#4ade80>'
+  lore:
+    - ''
+    - '<#4ade80>Bilgiler:</#4ade80>'
+    - ' <white>Stoktaki tüm bu ürünü</white>'
+    - ' <white>satıp paranı günceller.</white>'
+    - ''
+    - '<#4ade80>✦</#4ade80> <white>Kazanç:</white> <#4ade80>%earnings%$</#4ade80>'
+    - ''
+    - '<#4ade80>●</#4ade80> <white><u><bold><#4ade80>ꜱᴀᴛᴍᴀᴋ</#4ade80></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

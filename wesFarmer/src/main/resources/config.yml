@@ -1,0 +1,45 @@
+settings:
+  # Farmer satin alma ucreti (Vault ekonomisi uzerinden)
+  buy-price: 15000.0
+  # FancyNpcs skin adi/URL'i. Bos birakilirsa varsayilan skin kullanilir.
+  npc-skin: "http://textures.minecraft.net/texture/b8f2f32436afaac2ae8c0763ed90b2821e0fbe76326c6a397d28f7621441e03"
+  # Hologramin NPC'nin kac blok uzerinde durdugu
+  hologram-offset-y: 2.2
+  hologram-lines:
+    - "<gray>●</gray> <b><gradient:#D09019:#E6C400>çɪꜰᴛçɪ</gradient></b>"
+    - ""
+    - "<gradient:#D09019:#E6C400>çɪꜰᴛçɪʏᴇ ᴇʀɪşᴍᴇᴋ ɪçɪɴ ᴛıᴋʟᴀ!</gradient>"
+  # Hologram arka plan rengi: "transparent" veya gecerli hex kodu (#AARRGGBB / #RRGGBB)
+  hologram-background: "transparent"
+  # Hologram metninde golgeli yazi (true/false)
+  hologram-text-shadow: true
+  # Oyuncu başına maksimum farmer sayısı (0 = sınırsız)
+  max-farmers-per-player: 1
+  # Çiftçi yerleştirilebilecek dünyalar. Boş bırakılırsa tüm dünyalarda aktif olur.
+  allowed-worlds:
+    - world
+
+  # Buton permission'ları (boş bırakılırsa herkese açık)
+  sell-all-permission: ''       # örn: wesfarmer.vip — sadece bu permissiona sahip oyuncular kullanabilir
+  upgrade-all-permission: ''    # örn: wesfarmer.vip
+
+  # Üye sistemi  # max-members: Çiftçi başına maksimum üye sayısı (sahip hariç, 0 = sınırsız)
+  max-members: 10
+  # Rol görünen isimleri (GUI'de ve mesajlarda gösterilir)
+  roles:
+    member: 'Üye'
+    leader: 'Lider'
+    owner: 'Sahip'
+
+  # İzin sistemi — her izin için minimum gereken rol
+  # Geçerli değerler: MEMBER, LEADER, OWNER
+  permissions:
+    sell: MEMBER              # Tek üründen satma
+    sell-all: MEMBER          # Tüm ürünleri toplu satma
+    take: MEMBER              # Üründen envantere alma
+    upgrade: LEADER           # Tek ürün seviye yükseltme
+    upgrade-all: LEADER       # Toplu seviye yükseltme
+    collect-toggle: LEADER    # Tek ürün toplama aç/kapat
+    collect-toggle-all: LEADER # Tüm ürünler toplama toplu aç/kapat
+    view-members: MEMBER      # Üye listesini görüntüleme
+    sell-toggle: LEADER       # Ürün bazlı satış açma/kapama

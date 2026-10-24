@@ -1,0 +1,92 @@
+# =========================================================
+#  WesFarmer - guis/farmer-menu.yml
+#  Ana çiftçi menüsü. MiniMessage formatı kullanır.
+#  Slot 0-44: ürün alanı (boş bırakılır, kod doldurur)
+#  Slot 45-53: kontrol paneli
+#
+#  Panel düzeni:
+#  45=önceki  46=filler  47=geçmiş  48=istatistikler  49=kontrol
+#  50=sat     51=yükselt 52=filler  53=sonraki
+# =========================================================
+
+title: 'çɪꜰᴛçɪ'
+
+panel-filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ''
+
+previous-page:
+  slot: 45
+  material: ARROW
+  display-name: '<#ffea00>← <bold>öɴᴄᴇᴋɪ ѕᴀʏғᴀ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɢᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+history:
+  slot: 47
+  material: BOOK
+  display-name: '<#a78bfa>♦ <bold>ɪşʟᴇᴍ ɢᴇçᴍɪşɪ</bold></#a78bfa>'
+  lore:
+    - ''
+    - '<#a78bfa>Bilgiler:</#a78bfa>'
+    - ' <white>Çiftçinin son işlemlerini</white>'
+    - ' <white>görüntüle.</white>'
+    - ''
+    - '<#a78bfa>●</#a78bfa> <white><u><bold><#a78bfa>ɢöʀüɴᴛüʟᴇᴍᴇᴋ</#a78bfa></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+stats:
+  slot: 48
+  material: GOLD_INGOT
+  display-name: '<#D09019>♦ <bold>ɪѕᴛᴀᴛɪѕᴛɪᴋʟᴇʀ</bold></#D09019>'
+  lore:
+    - ''
+    - '<#D09019>Bilgiler:</#D09019>'
+    - ' <white>Çiftçi istatistiklerini</white>'
+    - ' <white>görüntüle.</white>'
+    - ''
+    - '<#D09019>●</#D09019> <white><u><bold><#D09019>ɢöʀüɴᴛüʟᴇᴍᴇᴋ</#D09019></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+control-panel:
+  slot: 49
+  material: COMPARATOR
+  display-name: '<#f97316>♦ <bold>ᴋᴏɴᴛʀᴏʟ ᴘᴀɴᴇʟɪ</bold></#f97316>'
+  lore:
+    - ''
+    - '<#f97316>Bilgiler:</#f97316>'
+    - ' <white>Çiftçi ayarlarını</white>'
+    - ' <white>yönet.</white>'
+    - ''
+    - '<#f97316>●</#f97316> <white><u><bold><#f97316>ᴀçᴍᴀᴋ</#f97316></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+sell-all:
+  slot: 50
+  material: EMERALD
+  display-name: '<#4ade80>♦ <bold>ᴛümünü ѕᴀᴛ</bold></#4ade80>'
+  lore:
+    - ''
+    - '<#4ade80>Bilgiler:</#4ade80>'
+    - ' <white>Çiftçideki tüm ürünleri</white>'
+    - ' <white>satıp parana ekle.</white>'
+    - ''
+    - '<#4ade80>●</#4ade80> <white><u><bold><#4ade80>ѕᴀᴛᴍᴀᴋ</#4ade80></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+upgrade-all:
+  slot: 51
+  material: EXPERIENCE_BOTTLE
+  display-name: '<#facc15>♦ <bold>ᴛᴏᴘʟᴜ ʏüᴋѕᴇʟᴛ</bold></#facc15>'
+  lore:
+    - ''
+    - '<#facc15>Bilgiler:</#facc15>'
+    - ' <white>Tüm yükseltmeleri bir</white>'
+    - ' <white>arada uygula.</white>'
+    - ''
+    - '<#facc15>●</#facc15> <white><u><bold><#facc15>ʏüᴋѕᴇʟᴛᴍᴇᴋ</#facc15></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+next-page:
+  slot: 53
+  material: ARROW
+  display-name: '<#ffea00>→ <bold>ѕᴏɴʀᴀᴋɪ ѕᴀʏғᴀ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɪʟᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'

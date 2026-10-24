@@ -1,0 +1,57 @@
+# =========================================================
+#  WesFarmer - guis/members-menu.yml
+#  Slot düzeni (54 slot / 9x6):
+#  Satır 1-5 (0-44): üye listesi
+#  Satır 6  (45-53): geri=45 | ekle=46 | boş | boş | boş | boş | boş | önceki=52 | sonraki=53
+# =========================================================
+
+title: 'çɪꜰᴛçɪ → üʏᴇʟᴇʀ'
+
+filler:
+  material: BLACK_STAINED_GLASS_PANE
+  name: ''
+
+back:
+  slot: 45
+  material: ARROW
+  display-name: '<#ffea00>← <bold>ɢᴇʀɪ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɢᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+add-member:
+  slot: 49
+  material: LIME_DYE
+  display-name: '<#4ade80>♦ <bold>üʏᴇ ᴇᴋʟᴇ</bold></#4ade80>'
+  lore:
+    - ''
+    - '<#4ade80>Bilgiler:</#4ade80>'
+    - ' <white>Çiftçiye yeni bir üye ekle.</white>'
+    - ' <white>Sohbete oyuncu adını yaz.</white>'
+    - ''
+    - '<#4ade80>●</#4ade80> <white><u><bold><#4ade80>ᴇᴋʟᴇᴍᴇᴋ</#4ade80></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+previous-page:
+  slot: 52
+  material: ARROW
+  display-name: '<#ffea00>← <bold>öɴᴄᴇᴋɪ ѕᴀʏғᴀ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɢᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+next-page:
+  slot: 53
+  material: ARROW
+  display-name: '<#ffea00>→ <bold>ѕᴏɴʀᴀᴋɪ ѕᴀʏғᴀ</bold></#ffea00>'
+  lore:
+    - ''
+    - '<#ffea00>●</#ffea00> <white><u><bold><#ffea00>ɪʟᴇʀɪ ɢɪᴛᴍᴇᴋ</#ffea00></bold></u> ɪçɪɴ ᴛıᴋʟᴀ!</white>'
+
+# Rol ikonu materyalleri (üye slotunda gösterilir — PLAYER_HEAD ile override edildi)
+role-icons:
+  member:
+    material: CYAN_DYE
+  leader:
+    material: ORANGE_DYE
+  owner:
+    material: YELLOW_DYE
